@@ -39,6 +39,7 @@ function fetchPath(obj, path) {
     }
     return obj;
 }
+
 Toolkit.run(async tools => {
     const event = tools.context.payload
 
